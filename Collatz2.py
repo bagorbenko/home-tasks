@@ -23,6 +23,6 @@ def d2(g):
             max_len = e
             index = i
     return(index)
-print(d2(10**7))
+print(d2(10**6))
 stop = timeit.default_timer()
 print('Time: ', stop - start)
